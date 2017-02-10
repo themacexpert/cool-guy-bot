@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /^\/cool guy$/;
+      botRegex = /door code/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -21,7 +21,15 @@ function respond() {
 function postMessage() {
   var botResponse, options, body, botReq;
 
-  botResponse = cool();
+  
+  botResponse = "XRE Door Codes: \
+    Ship Room - 1234\
+    Study Room - 1234\
+    Music Room - 1234\
+    Houseman's Closet - 1234\
+    3F Closet - 1234\
+    Bike - 1234\
+    Front/Back Doors - 1234";
 
   options = {
     hostname: 'api.groupme.com',
