@@ -23,12 +23,12 @@ function postMessage() {
 
   
   botResponse = "XRE Door Codes: \
-    TEST Room - 1234\
-    Study Room - 1234\
-    Music Room - 1234\
-    Houseman's Closet - 1234\
-    3F Closet - 1234\
-    Bike - 1234\
+    TEST Room - 1234\n\n\
+    Study Room - 1234\n\n\
+    Music Room - 1234\n\n\
+    Houseman's Closet - 1234\n\n\
+    3F Closet - 1234\n\n\
+    Bike - 1234\n\n\
     Front/Back Doors - 1234";
 
   options = {
