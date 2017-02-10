@@ -22,8 +22,7 @@ function postMessage() {
   var botResponse, options, body, botReq;
 
   
-  botResponse = "XRE Door Codes: \
-    TEST Room - 1234\n\
+  botResponse = "TEST Room - 1234\n\
     Study Room - 1234\n\
     Music Room - 1234\n\
     Houseman's Closet - 1234\n\
